@@ -1,0 +1,10 @@
+.products-section {
+    background-color: rgb(223, 223, 223);
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 50px 0;
+}

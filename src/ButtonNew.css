@@ -1,0 +1,13 @@
+.new {
+    width: 90%;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    background: linear-gradient(to right,
+            hsl(14 100% 80%),
+            #e11d4b);
+    color: white;
+    transition: transform 0.3s ease;
+}
+ 
