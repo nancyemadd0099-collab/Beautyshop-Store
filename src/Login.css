@@ -85,3 +85,67 @@ form div input:focus {
             hsl(14 100% 80%),
             #e11d4b, #e11d4b);
 }
+
+
+/* --------------------- Resoponsive --------------------- */
+
+@media (max-width: 576px) {
+
+
+    .login-section {
+        height: 92.7vh;
+    }
+
+    .login-section .container {
+        padding-top: 60px;
+    }
+
+    .header-login p {
+        font-size: 24px;
+        padding: 30px 0;
+    }
+
+    .card-login {
+        width: 90%;
+        padding: 25px;
+    }
+
+    form div {
+        margin: 5px 0;
+    }
+
+    form div label {
+        padding: 8px 0;
+        font-size: 15px;
+    }
+
+    form div input {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .partone-login {
+        line-height: 0.5;
+        margin-bottom: 30px;
+    }
+
+    .partone-login p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .partone-login p:nth-child(2) {
+        font-size: 12px;
+    }
+
+
+    .card-login form button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* .form-login>p {
+        font-size: 12px;
+    } */
+
+
+}

@@ -5,7 +5,7 @@ import './SomeProduct.css'
 function SomeProduct() {
     return (
         <>
-            <section className='someProduct-section'>
+            <section className='someProduct-section' id='someProduct'>
                 <div className="container">
                     <div className='header'>
                         <p>Some Customer</p>

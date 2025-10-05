@@ -8,3 +8,16 @@
     gap: 15px;
     padding: 50px 0;
 }
+
+/* --------------------- Resoponsive --------------------- */
+
+
+@media (max-width: 576px) {
+
+    .products {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+
+}

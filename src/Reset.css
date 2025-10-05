@@ -172,3 +172,142 @@
             hsl(14 100% 80%),
             #e11d4b, #e11d4b);
 }
+
+
+/* --------------------- Resoponsive --------------------- */
+
+
+@media (max-width: 576px) {
+
+    .shopping-cart {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .header-shopping {
+        padding: 20px 10px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 14px;
+    }
+
+    .header-shopping h1 {
+        font-size: 18px;
+    }
+
+    .header-shopping button {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .orders {
+        padding-right: 10px;
+        text-align: right;
+    }
+
+    .order-item {
+        display: grid;
+        grid-template-columns: 1fr 3fr 2fr;
+        gap: 1px;
+        padding: 0 10px;
+    }
+
+    .order-item img {
+        width: 150px;
+        border-radius: 20px;
+        padding: 14px 0;
+    }
+
+    .part-one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .part-one h3 {
+        font-size: 14px;
+    }
+
+    .quantity {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        padding-top: 15px;
+    }
+
+    .quantity span {
+        font-size: 16px;
+        padding: 0 6px;
+    }
+
+    .quantity button {
+        padding: 0 8px;
+        font-size: 18px;
+    }
+
+    .part-two {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .part-two button {
+        padding: 0 5px;
+        width: 30px;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+
+    .part-two p {
+        font-size: 16px;
+        padding-top: 0px;
+    }
+
+    .orders hr {
+        height: 1px;
+        margin: 0;
+    }
+
+    .clear-cart {
+        font-size: 16px;
+    }
+
+    .checkout {
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .checkout h3 {
+        text-align: start;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    .line {
+        display: flex;
+        justify-content: space-between;
+        padding: 2px 0;
+        font-size: 15px;
+    }
+
+    .checkout hr {
+        height: 1px;
+        margin: 14px 0;
+    }
+
+    .total {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    .checkout-btn {
+        width: 90%;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+
+}

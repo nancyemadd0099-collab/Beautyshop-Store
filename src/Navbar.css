@@ -12,8 +12,6 @@ nav {
     padding: 5px 0;
 }
 
-
-
 nav>p {
     color: hsl(25 25% 15%);
     font-size: 26px;
@@ -50,9 +48,6 @@ nav>p {
 .links div {
     margin: 0 0 0 10px;
     display: inline;
-}
-
-.links div {
     font-size: 16px;
 }
 
@@ -66,3 +61,73 @@ nav>p {
 .links button:hover {
     background-color: #eee;
 }
+
+/* --------------------- Resoponsive --------------------- */
+
+
+@media (max-width: 576px) {
+    .navbar-section .container {
+        padding: 0 25px;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav>p {
+        font-size: 16px;
+        padding: 20px 0 0 0;
+    }
+
+    .links {
+        padding: 5px 0 0 0;
+    }
+
+    .links div {
+        margin: 0px 0 0 -8px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .navbar-section .container {
+        padding: 0 20px;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    nav>p {
+        font-size: 16px;
+        padding: 20px 0 0 0;
+    }
+
+    .links {
+        padding: 5px 0 0 0;
+    }
+
+    .links div {
+        margin: 0px 0 0 -5px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    nav>p {
+        font-size: 20px;
+        padding: 20px 0 0 0;
+    }
+
+    .links div {
+        margin: 0px 0 0 20px;
+        font-size: 16px;
+    }
+}
+
+/* @media (min-width: 993px) and (max-width: 1200px) {}
+
+@media (min-width: 1201px) and (max-width: 1400px) {}
+
+@media (min-width: 1401px) {} */

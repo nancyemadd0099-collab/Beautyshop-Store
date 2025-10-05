@@ -1,5 +1,5 @@
 .someProduct-section {
-    height: 100vh;
+    height: 95vh;
     background-color: whitesmoke;
     text-align: center;
     padding: 0px 0;
@@ -32,7 +32,7 @@
     margin-bottom: 50px;
 }
 
-.btn-show-more{
+.btn-show-more {
     width: 250px;
     display: flex;
     justify-content: space-around;
@@ -59,4 +59,67 @@
     align-items: center;
     justify-self: center;
     flex-direction: column;
+}
+
+/* --------------------- Resoponsive --------------------- */
+
+@media (max-width: 576px) {
+
+    .someProduct-section {
+        height: 240vh;
+        padding: 0px 0;
+    }
+
+    .header p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .header p:nth-child(2) {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .btn-show-more {
+        width: 130px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .someProduct-section {
+        height: 245vh;
+        padding: 0px 0;
+    }
+
+    .header p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    .header p:nth-child(2) {
+        font-size: 14px;
+        width: 85%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-show-more {
+        width: 130px;
+        padding: 8px;
+        font-size: 14px;
+    }
 }

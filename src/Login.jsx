@@ -26,7 +26,7 @@ function Login() {
                             <p>Sign in to your account to continue shopping</p>
                         </div>
 
-                        <form onSubmit={handleSubmit(myhandleSubmit)}>
+                        <form className='form-login' onSubmit={handleSubmit(myhandleSubmit)}>
                             <div>
                                 <label htmlFor="email">Email</label>
                                 <input type="text" name='email' id='email' placeholder='name@example.com'
@@ -45,7 +45,7 @@ function Login() {
                                     {...register("password", {
                                         required: "This Field Is Required",
                                     })} />
-                                {errors.password && (<p style={{color:"red"}}>{errors.password.message}</p>)}
+                                {errors.password && (<p style={{ color: "red" }}>{errors.password.message}</p>)}
                             </div>
 
                             <button>Sign In</button>
