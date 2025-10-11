@@ -1,8 +1,8 @@
 .someProduct-section {
-    height: 95vh;
+    /* height: 95vh; */
     background-color: whitesmoke;
     text-align: center;
-    padding: 0px 0;
+    padding: 32px 0;
 }
 
 .header {
@@ -64,11 +64,6 @@
 /* --------------------- Resoponsive --------------------- */
 
 @media (max-width: 576px) {
-
-    .someProduct-section {
-        height: 240vh;
-        padding: 0px 0;
-    }
 
     .header p:nth-child(1) {
         font-size: 26px;
